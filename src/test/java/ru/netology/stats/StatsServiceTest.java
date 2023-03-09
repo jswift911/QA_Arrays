@@ -6,6 +6,7 @@ public class StatsServiceTest {
 
     //Чтобы в каждый тест не дублировать массив, выносим его в отдельную переменную
     protected long[] testingArray = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+
     @Test
     void shouldCalcSumSalesExact() {
         StatsService service = new StatsService();
